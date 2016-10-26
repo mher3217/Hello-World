@@ -16,10 +16,11 @@ body{
 	background-image:url("fon_2.jpg")
 	}
 .foto{
-    margin: 5px;
+    margin-left:2px;
+	margin-bottom:2px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 27%;
+	width: 25%;
 	}
 .nkari_text{
 	color:red;
@@ -31,7 +32,7 @@ body{
 	float:left;
 	margin-top:20px;
 	margin-bottom:50px;
-	margin-left:150px;
+	margin-left:170px;
 }
 #main_menu a{
 	background-color: red;
@@ -40,17 +41,37 @@ body{
     text-align: center;
     text-decoration: none;
 }
-#p1 ul{
-	float:left;
-	width:10%;
-	height:500px;
-}
+#p1 li{
+	list-style-type: circle;
+	color:blue;
+	padding:10px;
+	padding-bottom:20px;
+	}
 #p1 a{
 	text-decoration: none;
 	background-color:green;
 	color: white;
     padding: 10px 25px;
-    text-decoration: none;
 }
-
-
+#p1{
+	float:left;
+	width:170px;
+	background-color:white;
+}
+#p2{
+	float:left;
+	width:170px;
+	background-color:red;
+}
+#p2 li{
+	list-style-type: circle;
+	color:blue;
+	padding:10px;
+	padding-bottom:20px;
+	}
+#p2 a{
+	text-decoration: none;
+	background-color:green;
+	color: white;
+    padding: 10px 25px;
+}
