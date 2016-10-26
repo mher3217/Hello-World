@@ -16,7 +16,7 @@ body{
 	background-image:url("fon_2.jpg")
 	}
 .foto{
-    margin-left:2px;
+   	margin-left:2px;
 	margin-bottom:2px;
 	border: 1px solid #ccc;
 	float: left;
@@ -36,10 +36,10 @@ body{
 }
 #main_menu a{
 	background-color: red;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
 }
 #p1 li{
 	list-style-type: circle;
@@ -51,7 +51,7 @@ body{
 	text-decoration: none;
 	background-color:green;
 	color: white;
-    padding: 10px 25px;
+    	padding: 10px 25px;
 }
 #p1{
 	float:left;
@@ -73,6 +73,5 @@ body{
 	text-decoration: none;
 	background-color:green;
 	color: white;
-    padding: 10px 25px;
-}
-
+   	padding: 10px 25px;
+	}
