@@ -67,11 +67,4 @@ $(document).scroll(function(){
 			$("#registry").hide("slow");
 		}
 });
-$(document).ready(function(){
-    $("#all").hover(function(){
-        $("#logo").css({"color":"#003366"});
-    },
-    function(){
-        alert("Bye! You now leave");
-    }); 
-});
+
